@@ -1,0 +1,26 @@
+class First
+{
+int a=10;
+First()
+{
+System.out.println("in First constructor");
+}
+void display()
+{
+System.out.println("in display");
+}
+}
+-------------------------------------------------------------------------------------------------------------------------------
+class Second
+{
+Second(First f)
+{
+System.out.println(f.a);
+f.display();
+}
+public static void main(String a[])
+{
+First f=new First();
+Second s=new Second(f);
+}
+}
