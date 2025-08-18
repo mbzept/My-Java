@@ -1,0 +1,13 @@
+class Demo3
+{
+int A , B;
+Demo3(int i,int j)
+{
+A=i;
+B=j;
+System.out.println(A+B);
+}
+public static void main(String a[])
+{Demo3 d=new Demo3(12,77);
+}
+}
