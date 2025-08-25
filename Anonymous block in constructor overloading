@@ -1,0 +1,30 @@
+class Demo
+{
+
+{
+int i=33;
+int j=22;
+System.out.println("Ananomous block value="+(i+j));
+}
+
+Demo()
+{
+System.out.println("Hello");
+}
+Demo(int i , String S)
+{
+System.out.println(i);
+System.out.println(S);
+}
+Demo(Person p)
+{
+p.display();
+}
+public static void main(String a[])
+{
+Demo d1=new Demo();
+Demo d2=new Demo(10, "NIET");
+Demo d3=new Demo(new Person());
+
+}
+}
