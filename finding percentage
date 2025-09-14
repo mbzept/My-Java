@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner s =new Scanner(System.in);
+        System.out.println("A=");
+        float a= s.nextFloat();
+        System.out.println("B=");
+        float b= s.nextFloat();
+        System.out.println("C=");
+        float c= s.nextFloat();
+        float d=((+b+c)/300)*100;
+        System.out.println(d+"%");
+
+    }
+}
