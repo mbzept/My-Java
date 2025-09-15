@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class Test{
+int square(int n){
+return n*n;
+}
+public static void main(String arr[]){
+Scanner s=new Scanner(System.in);
+System.out.print("Enter:");
+//int n=s.nextInt();
+Test obj=new Test();
+int z=obj.square(s.nextInt());
+System.out.println(z);
+}
+}
+----------------------------------OR----------------------------------------------
+import java.util.Scanner;
+class Test{
+int square(int n){
+return n*n;
+}
+public static void main(String arr[]){
+Scanner s=new Scanner(System.in);
+System.out.print("Enter:");
+int n=s.nextInt();
+Test obj=new Test();
+int z=obj.square(n);
+System.out.println(z);
+}
+}
