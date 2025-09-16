@@ -1,0 +1,19 @@
+class Student{
+int rollno;
+int marks;
+String name;
+void input(){
+System.out.println("Enter this roll no,marks and name");}
+}
+class Anshuman extends Student{
+void disp(){
+rollno=1;
+name="Anshuman";
+marks=98;
+System.out.println(rollno+" "+marks+" "+name);}
+public static void main(String arr[]){
+Anshuman a=new Anshuman();
+a.input();
+a.disp();
+}
+}
