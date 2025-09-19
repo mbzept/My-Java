@@ -1,0 +1,12 @@
+class A{
+public static void main(String arr[]){
+int a=0;
+int b=20;
+try{
+int c=b/a;
+System.out.println(c);
+}catch (Exception e){
+System.out.println("Exception: /0");
+}
+}
+}
