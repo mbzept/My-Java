@@ -1,0 +1,19 @@
+class ThrowThrowsExp {
+    void div(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Division by zero");
+        } else {
+            int c = a / b;
+            System.out.println("Result: " + c);
+        }
+    }
+
+    public static void main(String args[]) {
+        ThrowThrowsExp ob = new ThrowThrowsExp();
+        try {
+            ob.div(10, 0); // This will throw an exception
+        } catch (Exception e) {
+            System.out.println("Exception: " + e);
+        }
+    }
+}
