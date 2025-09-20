@@ -1,0 +1,22 @@
+class MultipleCatch{
+public static void main(String arg[]){
+int a=10,b=0;
+try{
+int c=a/b;
+System.out.println(c);
+}
+catch(Exception e){
+System.out.println("Caught exception"+e);
+System.out.println("we can't divide by 0"+e);
+}
+try {
+int arr[]={10,20,30,40};
+System.out.println(arr[4]);
+}
+catch(Exception ob){
+System.out.println("Caught exception"+ob);
+System.out.println("we can't divide by 0"+ob);
+}
+
+}
+}
