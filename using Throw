@@ -1,0 +1,9 @@
+class ThrowException{
+public static void main(String args[]){
+int age=19;
+if (age<18){
+throw new ArithmeticException("you are out");
+}
+System.out.println("you are in");
+}
+}
