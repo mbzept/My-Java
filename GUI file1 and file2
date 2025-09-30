@@ -1,0 +1,23 @@
+import java.awt.Frame;
+import java.awt.Button;
+import java.awt.TextField;
+public class FrameDemo extends Frame{
+public FrameDemo(){
+TextField txtName = new TextField();
+txtName.setBounds(50,100,80,50);
+this.add(txtName);
+Button btnClickMe=new Button("click");
+btnClickMe.setBounds(20,50,80,20);//(x,y,length,width)
+this.add(btnClickMe);
+setTitle("Anshuman GUI");
+setSize(300,300);
+setLayout(null);
+setVisible(true);
+}}
+---------------------------------------------------------
+//execute this
+public class TestFrameDemo{
+public static void main(String args[]){
+FrameDemo obj = new FrameDemo();
+}
+}
