@@ -1,0 +1,18 @@
+import java.util.Stack;
+public class Array{
+public static void main (String arr[]){
+Stack <String> Name=new Stack <String>();
+System.out.println("using Array operation");
+Name.add("Anshuman");
+Name.add("0");
+Name.add("1024");
+System.out.println(Name);
+Name.remove("0");
+System.out.println(Name);
+System.out.println("using stack pop and push operation");
+Name.pop();
+System.out.println(Name);
+Name.push("99");
+System.out.println(Name);
+}
+}
